@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #333;
+}
+h1 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+iframe {
+    width: 50%;
+    height: 500px;
+    filter: invert(100%);
+}
